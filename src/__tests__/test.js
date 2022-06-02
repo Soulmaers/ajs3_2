@@ -1,6 +1,5 @@
 import funcFilt from '../filterHealth';
 
-
 test('filter health', () => {
   const pers = [
     { name: 'мечник', health: 10 },
