@@ -1,5 +1,6 @@
-export default function funcFilt(pers) {
-  pers.sort((prev, next) => prev.health - next.health);
 
-  return pers;
+
+export default function funcFilt(heroes) {
+  heroes.sort((prev, next) => next.health - prev.health);
+  return heroes;
 }
